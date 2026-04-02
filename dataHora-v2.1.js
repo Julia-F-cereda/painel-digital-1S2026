@@ -79,12 +79,12 @@ function atualizarPainel(){
 //5 inicializando
 
 aplicarEstilos(document.body, temas.corpo);
-aplicarEstilos(boasVindas, temas.boasVindas);
-aplicarEstilos(relogio, temas.relogio);
-aplicarEstilos(data, temas.data);
+aplicarEstilos(boasVindass, temas.boasVindas);
+aplicarEstilos(opcoess, temas.relogio);
+aplicarEstilos(dataFormatadaa, temas.dataInfo);
 
 // Adicionando ao DOM
-document.body.append(boasVindass, dataFormatadaa, atualizarPainel);
+document.body.append(boasVindas, data, relogio);
 
 // Rodar
 setInterval(atualizarPainel, 1000);

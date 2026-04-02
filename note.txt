@@ -1,0 +1,12 @@
+// let cont = 0;
+// function contador(){
+
+//     cont ++
+//     document.body.textContent = cont
+
+// };
+// setInterval(contador, 1000)
+
+
+// contador ++ ele vai somando mais um 
+// set inteval ele vi atualizand a pg
